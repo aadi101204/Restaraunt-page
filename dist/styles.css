@@ -1,0 +1,67 @@
+body {
+  background-image: url("../src/Assets/homebg.jpg");
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  justify-content: space-around;
+}
+.HomeButton {
+  width: 115px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 26px;
+  background-color: transparent;
+  margin-inline-end: 30px;
+}
+.MenuButton {
+  width: 115px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 26px;
+  background-color: transparent;
+  margin-inline-end: 30px;
+}
+.AboutButton {
+  width: 115px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 26px;
+  background-color: transparent;
+  margin-inline-end: 30px;
+}
+.ContactButton {
+  width: 130px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 26px;
+  background-color: transparent;
+  margin-inline-end: 30px;
+}
+button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title {
+  margin-top: 200px;
+  margin-left: 400px;
+  color: #fff;
+  font-family: "Sans Serif Collection";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+}
+.subtitle {
+  margin-left: 400px;
+  color: #fff;
+  font-family: "Sans Serif Collection";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
